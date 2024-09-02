@@ -3354,82 +3354,6 @@
                     "id": "8d866340-30c6-4ec7-8245-e29d57f6dde3"
                 },
                 {
-                    "command": "EVENT_IF",
-                    "args": {
-                        "condition": {
-                            "type": "gte",
-                            "valueA": {
-                                "type": "variable",
-                                "value": "18"
-                            },
-                            "valueB": {
-                                "type": "variable",
-                                "value": "19"
-                            }
-                        },
-                        "__collapseElse": true
-                    },
-                    "children": {
-                        "true": [
-                            {
-                                "command": "EVENT_IF",
-                                "args": {
-                                    "condition": {
-                                        "type": "lt",
-                                        "valueA": {
-                                            "type": "variable",
-                                            "value": "20"
-                                        },
-                                        "valueB": {
-                                            "type": "variable",
-                                            "value": "21"
-                                        }
-                                    },
-                                    "__collapseElse": true
-                                },
-                                "children": {
-                                    "true": [
-                                        {
-                                            "command": "EVENT_IF",
-                                            "args": {
-                                                "condition": {
-                                                    "type": "lt",
-                                                    "valueA": {
-                                                        "type": "variable",
-                                                        "value": "22"
-                                                    },
-                                                    "valueB": {
-                                                        "type": "variable",
-                                                        "value": "23"
-                                                    }
-                                                },
-                                                "__collapseElse": true
-                                            },
-                                            "children": {
-                                                "true": [
-                                                    {
-                                                        "command": "EVENT_INC_VALUE",
-                                                        "args": {
-                                                            "variable": "24"
-                                                        },
-                                                        "id": "2584e214-2d01-4e5b-8403-7f3ac9e3e312"
-                                                    }
-                                                ],
-                                                "false": []
-                                            },
-                                            "id": "22303ce2-9762-46d9-be4f-25bae9546028"
-                                        }
-                                    ],
-                                    "false": []
-                                },
-                                "id": "54dd9494-d6fe-48e4-ae32-510c53a696af"
-                            }
-                        ],
-                        "false": []
-                    },
-                    "id": "4774587e-8f9e-49ca-9fbe-5b67bd8aee41"
-                },
-                {
                     "command": "EVENT_SET_VALUE",
                     "args": {
                         "variable": "18",
@@ -4399,82 +4323,6 @@
                         "actorId": "$self$"
                     },
                     "id": "c1e5da8f-eb7d-4b43-b7a0-825077b7e830"
-                },
-                {
-                    "command": "EVENT_IF",
-                    "args": {
-                        "condition": {
-                            "type": "gte",
-                            "valueA": {
-                                "type": "variable",
-                                "value": "22"
-                            },
-                            "valueB": {
-                                "type": "variable",
-                                "value": "23"
-                            }
-                        },
-                        "__collapseElse": true
-                    },
-                    "children": {
-                        "true": [
-                            {
-                                "command": "EVENT_IF",
-                                "args": {
-                                    "condition": {
-                                        "type": "lt",
-                                        "valueA": {
-                                            "type": "variable",
-                                            "value": "18"
-                                        },
-                                        "valueB": {
-                                            "type": "variable",
-                                            "value": "19"
-                                        }
-                                    },
-                                    "__collapseElse": true
-                                },
-                                "children": {
-                                    "true": [
-                                        {
-                                            "command": "EVENT_IF",
-                                            "args": {
-                                                "condition": {
-                                                    "type": "lt",
-                                                    "valueA": {
-                                                        "type": "variable",
-                                                        "value": "20"
-                                                    },
-                                                    "valueB": {
-                                                        "type": "variable",
-                                                        "value": "21"
-                                                    }
-                                                },
-                                                "__collapseElse": true
-                                            },
-                                            "children": {
-                                                "true": [
-                                                    {
-                                                        "command": "EVENT_INC_VALUE",
-                                                        "args": {
-                                                            "variable": "24"
-                                                        },
-                                                        "id": "f705fbfb-b975-4b28-a74c-8328d32b7d1b"
-                                                    }
-                                                ],
-                                                "false": []
-                                            },
-                                            "id": "46c4dd07-6035-4890-9a31-5b587f713ca9"
-                                        }
-                                    ],
-                                    "false": []
-                                },
-                                "id": "85816629-e343-40f6-a4cb-5f2f70c985d8"
-                            }
-                        ],
-                        "false": []
-                    },
-                    "id": "cfc53d00-0006-42c5-8787-c6586256a38d"
                 },
                 {
                     "command": "EVENT_SET_VALUE",
@@ -16824,7 +16672,7 @@
                         "variable": "19",
                         "value": {
                             "type": "number",
-                            "value": 1200
+                            "value": 600
                         }
                     },
                     "id": "48e0a800-4918-43ee-9367-b76e9da1e273"
@@ -16868,7 +16716,7 @@
                         "variable": "23",
                         "value": {
                             "type": "number",
-                            "value": 1200
+                            "value": 600
                         }
                     },
                     "id": "f4e461ea-620b-41f2-93e6-40c2bb0eaf29"
@@ -17550,8 +17398,8 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 1893,
-        "worldScrollY": 901,
+        "worldScrollX": 1097,
+        "worldScrollY": 865,
         "zoom": 200,
         "sgbEnabled": false,
         "customHead": "",

@@ -3109,6 +3109,14 @@
                         "load": []
                     },
                     "id": "5058d3ec-ae59-4bf7-bff3-da09d8f3fd12"
+                },
+                {
+                    "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+                    "args": {
+                        "actorId": "$self$",
+                        "speed": 2
+                    },
+                    "id": "798f440c-34d6-448e-9e12-c2467704ec05"
                 }
             ],
             "playerHit1Script": [],
@@ -3614,6 +3622,14 @@
                         "load": []
                     },
                     "id": "88984bc5-b6bb-4a33-bc91-808cf8c98725"
+                },
+                {
+                    "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+                    "args": {
+                        "actorId": "$self$",
+                        "speed": 4
+                    },
+                    "id": "a22c038b-68fc-48f9-940e-a21da17002f4"
                 }
             ],
             "playerHit1Script": [],
@@ -3850,6 +3866,14 @@
                         "load": []
                     },
                     "id": "b7058663-c5ca-4978-8515-85058d36d289"
+                },
+                {
+                    "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+                    "args": {
+                        "actorId": "$self$",
+                        "speed": 4
+                    },
+                    "id": "408efd31-f555-4c4d-8e04-8f8a72059b6a"
                 }
             ],
             "playerHit1Script": [],
@@ -4241,6 +4265,14 @@
                         "load": []
                     },
                     "id": "250fe27f-19c2-4340-bc02-c6d850d037da"
+                },
+                {
+                    "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+                    "args": {
+                        "actorId": "$self$",
+                        "speed": 4
+                    },
+                    "id": "7947259e-0db8-4523-bfeb-0bdf147c7648"
                 }
             ],
             "playerHit1Script": [],
@@ -4508,7 +4540,7 @@
                             "grown up to be a\nproductive member of",
                             "society!",
                             "With his new college\ndegree, who knows . . .",
-                            "what opportunities\nawaits him.",
+                            "what opportunities\nawait him.",
                             "Gato only has you to\nthank for this!",
                             "Thank you . . ."
                         ],
@@ -17398,8 +17430,8 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 1097,
-        "worldScrollY": 865,
+        "worldScrollX": 1303,
+        "worldScrollY": 901,
         "zoom": 200,
         "sgbEnabled": false,
         "customHead": "",
