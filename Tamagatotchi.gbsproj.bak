@@ -5983,6 +5983,37 @@
                                             "priority": false
                                         }
                                     ]
+                                },
+                                {
+                                    "id": "389c1b80-56d8-43d6-a018-b419a15efa69",
+                                    "tiles": [
+                                        {
+                                            "id": "40dc21b3-e5da-4010-a20c-b5b03c9f21d9",
+                                            "x": 1,
+                                            "y": 0,
+                                            "sliceX": 16,
+                                            "sliceY": 0,
+                                            "palette": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "objPalette": "OBP0",
+                                            "paletteIndex": 0,
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "030496e1-a7ec-481b-8b19-2ba5143f6485",
+                                            "x": 9,
+                                            "y": 0,
+                                            "sliceX": 24,
+                                            "sliceY": 0,
+                                            "palette": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "objPalette": "OBP0",
+                                            "paletteIndex": 0,
+                                            "priority": false
+                                        }
+                                    ]
                                 }
                             ]
                         },
@@ -15923,8 +15954,8 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 0,
-        "worldScrollY": 1,
+        "worldScrollX": 1497,
+        "worldScrollY": 449,
         "zoom": 200,
         "sgbEnabled": false,
         "customHead": "",
@@ -15960,11 +15991,11 @@
         "defaultFontId": "948c169c-8e4b-491c-a5f0-66898bbf45d9",
         "defaultCharacterEncoding": "",
         "defaultPlayerSprites": {
-            "TOPDOWN": "a827b612-578f-4cb9-a2bf-fd54b197b83f",
+            "TOPDOWN": "d3f11ec4-0a65-4067-91ba-6facfb17797b",
             "PLATFORM": "c0310735-3e7c-4ff1-bcff-b07d818d433b",
             "ADVENTURE": "ac1e8ef4-ffe6-47cd-b16f-9af5da77ec26",
             "SHMUP": "2f2d492c-dba2-434c-93c9-d1301e88d5e9",
-            "POINTNCLICK": "a827b612-578f-4cb9-a2bf-fd54b197b83f",
+            "POINTNCLICK": "d3f11ec4-0a65-4067-91ba-6facfb17797b",
             "LOGO": "ac1e8ef4-ffe6-47cd-b16f-9af5da77ec26"
         },
         "musicDriver": "huge",
