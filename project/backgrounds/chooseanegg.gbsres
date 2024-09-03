@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "0af9ba31-7864-4664-9603-b211dc0f3793",
+  "name": "ChooseAnEgg",
+  "symbol": "bg_room",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "ChooseAnEgg.png",
+  "tileColors": "0428+0010+044+0010+044+0011+043+0011+043+0011+043+004+05!00d+042+0012+042+0010+044+0010+044+0012+042+0011+043+0010+047+00d+04c+006+04c+032+042+05!00!041c+",
+  "autoColor": false
+}

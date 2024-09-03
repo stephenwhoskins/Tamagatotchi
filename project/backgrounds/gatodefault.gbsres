@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "981e55cf-b72b-4622-81ba-610013d93c6c",
+  "name": "GatoDefault",
+  "symbol": "bg_gatocooing",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "GatoDefault.png",
+  "tileColors": "",
+  "autoColor": false
+}

@@ -1,0 +1,32 @@
+{
+  "_resourceType": "script",
+  "id": "c353eb55-487a-4f24-9b30-678a72b0efb5",
+  "name": "Update Counts",
+  "symbol": "script_14",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "script": [
+    {
+      "command": "EVENT_INC_VALUE",
+      "args": {
+        "variable": "18"
+      },
+      "id": "6fda7910-e116-49d1-8600-34a312b92f8b"
+    },
+    {
+      "command": "EVENT_INC_VALUE",
+      "args": {
+        "variable": "20"
+      },
+      "id": "2a67f722-157a-4b52-a234-406066ce43d3"
+    },
+    {
+      "command": "EVENT_INC_VALUE",
+      "args": {
+        "variable": "22"
+      },
+      "id": "c8cf73e4-bc39-41f2-8577-97b505204f1d"
+    }
+  ]
+}

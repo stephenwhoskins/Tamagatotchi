@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "825919ae-fe5d-4f76-821a-23fdeeb63110",
+  "name": "GatoInDark",
+  "symbol": "bg_gatoindark",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "GatoInDark.png",
+  "tileColors": "",
+  "autoColor": false
+}

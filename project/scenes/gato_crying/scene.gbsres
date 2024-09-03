@@ -1,0 +1,48 @@
+{
+  "_resourceType": "scene",
+  "id": "06fdb587-c6f0-47e1-b18b-5a98f65ca4a3",
+  "_index": 13,
+  "type": "POINTNCLICK",
+  "name": "Gato Crying",
+  "symbol": "scene_14",
+  "x": 1472,
+  "y": 656,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "7a4f80b5-f142-4c55-9dad-8a8c920e838d",
+  "tilesetId": "",
+  "paletteIds": [
+    "dmg"
+  ],
+  "spritePaletteIds": [
+    "dmg"
+  ],
+  "autoFadeSpeed": 1,
+  "playerSpriteSheetId": "d3f11ec4-0a65-4067-91ba-6facfb17797b",
+  "script": [
+    {
+      "command": "EVENT_SAVE_DATA",
+      "args": {
+        "saveSlot": 0,
+        "__scriptTabs": "save"
+      },
+      "children": {
+        "true": [],
+        "load": []
+      },
+      "id": "250fe27f-19c2-4340-bc02-c6d850d037da"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 4
+      },
+      "id": "7947259e-0db8-4523-bfeb-0bdf147c7648"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": ""
+}

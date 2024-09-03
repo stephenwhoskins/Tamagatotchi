@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "d857fce8-776e-4304-9413-4bd79e518f1b",
+  "name": "GatoCleaning",
+  "symbol": "bg_gatocleaning",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "GatoCleaning.png",
+  "tileColors": "",
+  "autoColor": false
+}

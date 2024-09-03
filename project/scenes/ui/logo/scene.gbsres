@@ -1,0 +1,103 @@
+{
+  "_resourceType": "scene",
+  "id": "382961a1-e615-4b92-92a7-f1a791b50b7a",
+  "_index": 0,
+  "type": "TOPDOWN",
+  "name": "ui/Logo",
+  "symbol": "scene_logo",
+  "x": 141,
+  "y": 75,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "f8b1c7ad-7bb2-44b2-8189-175ae8698f11",
+  "tilesetId": "",
+  "paletteIds": [
+    "dmg",
+    "dmg",
+    "dmg",
+    "dmg",
+    "dmg",
+    "dmg",
+    "dmg",
+    "dmg"
+  ],
+  "spritePaletteIds": [
+    "dmg",
+    "dmg",
+    "dmg",
+    "dmg",
+    "dmg",
+    "dmg",
+    "dmg",
+    "dmg"
+  ],
+  "autoFadeSpeed": 1,
+  "playerSpriteSheetId": "d3f11ec4-0a65-4067-91ba-6facfb17797b",
+  "script": [
+    {
+      "id": "8343c54c-07a1-4d30-892c-91db234b8d9b",
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "player"
+      }
+    },
+    {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {},
+      "id": "943a9eb6-e106-45de-abd0-7814080bfa27"
+    },
+    {
+      "id": "dfb4c321-31ae-4e7f-a400-aae4088043d5",
+      "command": "EVENT_OVERLAY_SHOW",
+      "args": {
+        "color": "black",
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "e88fcc15-89a0-4db6-b069-aeffe9cb222b",
+      "command": "EVENT_OVERLAY_MOVE_TO",
+      "args": {
+        "x": 0,
+        "y": 18,
+        "speed": "1"
+      }
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "52931cfb-e5d5-4549-bfa8-06516d30f68f"
+      },
+      "id": "b369d568-3d2e-4e1f-9a4e-614af8ecbcf9"
+    },
+    {
+      "id": "0677a82b-f7cf-429e-9259-dba979146cc5",
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 2
+      }
+    },
+    {
+      "id": "9daba1e6-c056-494a-babc-caa87913aa32",
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "4912bee2-387a-472f-ae4f-6679b6149517",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      }
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "00168+"
+}

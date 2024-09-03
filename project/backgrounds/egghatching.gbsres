@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "48ffec1e-dd00-48cc-bc8d-c07e6343f357",
+  "name": "EggHatching",
+  "symbol": "bg_chooseanegg_copy",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "EggHatching.png",
+  "tileColors": "",
+  "autoColor": false
+}

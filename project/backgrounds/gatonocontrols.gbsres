@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "4d688fa6-a17c-4b64-bcb7-8d84b7830076",
+  "name": "GatoNoControls",
+  "symbol": "bg_gatodefaultdisabled_copy",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "GatoNoControls.png",
+  "tileColors": "",
+  "autoColor": false
+}

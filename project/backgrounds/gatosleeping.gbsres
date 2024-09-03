@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "12654a0d-9148-40d1-8bda-6dc3f79df6ae",
+  "name": "GatoSleeping",
+  "symbol": "sprite_gatohatched3_copy",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "GatoSleeping.png",
+  "tileColors": "",
+  "autoColor": false
+}

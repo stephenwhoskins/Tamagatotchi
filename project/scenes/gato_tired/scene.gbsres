@@ -1,0 +1,48 @@
+{
+  "_resourceType": "scene",
+  "id": "7579b4ff-6f0b-4707-8cce-f31e83d5a904",
+  "_index": 11,
+  "type": "POINTNCLICK",
+  "name": "Gato Tired",
+  "symbol": "scene_12",
+  "x": 1248,
+  "y": 464,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "981e55cf-b72b-4622-81ba-610013d93c6c",
+  "tilesetId": "",
+  "paletteIds": [
+    "dmg"
+  ],
+  "spritePaletteIds": [
+    "dmg"
+  ],
+  "autoFadeSpeed": 1,
+  "playerSpriteSheetId": "d3f11ec4-0a65-4067-91ba-6facfb17797b",
+  "script": [
+    {
+      "command": "EVENT_SAVE_DATA",
+      "args": {
+        "saveSlot": 0,
+        "__scriptTabs": "save"
+      },
+      "children": {
+        "true": [],
+        "load": []
+      },
+      "id": "b7058663-c5ca-4978-8515-85058d36d289"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 4
+      },
+      "id": "408efd31-f555-4c4d-8e04-8f8a72059b6a"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": ""
+}

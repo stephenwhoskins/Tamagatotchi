@@ -1,0 +1,99 @@
+{
+  "_resourceType": "script",
+  "id": "52931cfb-e5d5-4549-bfa8-06516d30f68f",
+  "name": "Init Globals",
+  "symbol": "script_12",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "19",
+        "value": {
+          "type": "number",
+          "value": 600
+        }
+      },
+      "id": "48e0a800-4918-43ee-9367-b76e9da1e273"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "18",
+        "value": {
+          "type": "variable",
+          "value": "19"
+        }
+      },
+      "id": "86485a1f-983b-4c63-a302-ac8c96821773"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "21",
+        "value": {
+          "type": "number",
+          "value": 1200
+        }
+      },
+      "id": "b270d422-7d25-4219-9274-6ac23ed3c6aa"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "20",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "7ff0418a-21ad-4019-abb8-c8f87ed82b4c"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "23",
+        "value": {
+          "type": "number",
+          "value": 600
+        }
+      },
+      "id": "f4e461ea-620b-41f2-93e6-40c2bb0eaf29"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "22",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "6c628575-6816-4796-add6-63c3055a0b08"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "25",
+        "value": {
+          "type": "number",
+          "value": 4
+        }
+      },
+      "id": "c240be03-0236-4cba-bd0c-07e066828609"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "24",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "b249d685-1c13-4a85-b807-ffe131469a09"
+    }
+  ]
+}

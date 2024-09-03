@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "7a4f80b5-f142-4c55-9dad-8a8c920e838d",
+  "name": "GatoCrying",
+  "symbol": "bg_gatocrying",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "GatoCrying.png",
+  "tileColors": "",
+  "autoColor": false
+}

@@ -1,0 +1,48 @@
+{
+  "_resourceType": "scene",
+  "id": "a104cdbc-5c9c-4a5c-90a1-e911b017dd30",
+  "_index": 7,
+  "type": "POINTNCLICK",
+  "name": "Gato Smacking Lips",
+  "symbol": "scene_8",
+  "x": 799,
+  "y": 464.5,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "981e55cf-b72b-4622-81ba-610013d93c6c",
+  "tilesetId": "",
+  "paletteIds": [
+    "dmg"
+  ],
+  "spritePaletteIds": [
+    "dmg"
+  ],
+  "autoFadeSpeed": 1,
+  "playerSpriteSheetId": "d3f11ec4-0a65-4067-91ba-6facfb17797b",
+  "script": [
+    {
+      "command": "EVENT_SAVE_DATA",
+      "args": {
+        "saveSlot": 0,
+        "__scriptTabs": "save"
+      },
+      "children": {
+        "true": [],
+        "load": []
+      },
+      "id": "5058d3ec-ae59-4bf7-bff3-da09d8f3fd12"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 2
+      },
+      "id": "798f440c-34d6-448e-9e12-c2467704ec05"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": ""
+}

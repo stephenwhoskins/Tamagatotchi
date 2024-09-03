@@ -1,0 +1,43 @@
+{
+  "_resourceType": "trigger",
+  "id": "150690d6-41f6-4075-b31f-a9e70a764f8d",
+  "_index": 0,
+  "symbol": "trigger_19",
+  "prefabId": "",
+  "name": "",
+  "x": 5,
+  "y": 7,
+  "width": 1,
+  "height": 2,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Great choice!"
+        ],
+        "avatarId": ""
+      },
+      "id": "2c6fa050-fcb3-4fff-a983-e9048a58b68f"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "3fd45243-001d-434a-9c37-ccc484b7bf3d",
+        "x": {
+          "type": "number",
+          "value": 2
+        },
+        "y": {
+          "type": "number",
+          "value": 8
+        },
+        "direction": "right",
+        "fadeSpeed": "2"
+      },
+      "id": "5c259ee9-cb7c-430f-ae64-e11717fd75bc"
+    }
+  ],
+  "leaveScript": []
+}

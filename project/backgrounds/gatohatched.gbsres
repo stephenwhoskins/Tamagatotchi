@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "ba0a7300-82fa-4fbf-9bba-b1cf9d1c4889",
+  "name": "GatoHatched",
+  "symbol": "bg_egghatching_copy",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "GatoHatched.png",
+  "tileColors": "",
+  "autoColor": false
+}
