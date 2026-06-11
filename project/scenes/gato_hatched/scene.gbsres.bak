@@ -1,0 +1,69 @@
+{
+  "_resourceType": "scene",
+  "id": "f8d9d21e-f05b-4da0-b407-d14ad86f8d19",
+  "_index": 6,
+  "type": "TOPDOWN",
+  "name": "Gato Hatched",
+  "symbol": "scene_19",
+  "x": 600,
+  "y": 504,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "ba0a7300-82fa-4fbf-9bba-b1cf9d1c4889",
+  "tilesetId": "",
+  "paletteIds": [
+    "dmg",
+    "dmg",
+    "dmg",
+    "dmg",
+    "dmg",
+    "dmg",
+    "dmg",
+    "dmg"
+  ],
+  "spritePaletteIds": [
+    "dmg",
+    "dmg",
+    "dmg",
+    "dmg",
+    "dmg",
+    "dmg",
+    "dmg",
+    "dmg"
+  ],
+  "autoFadeSpeed": 1,
+  "playerSpriteSheetId": "d3f11ec4-0a65-4067-91ba-6facfb17797b",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "f58b502f-e72e-4723-998e-b1a084521b95"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Aww...  It's a Gato!",
+          "Look how sleepy he is.",
+          "Poor little fella is all\ntuckered out.",
+          "Welcome to our world,\nLittle Gatito!"
+        ],
+        "avatarId": ""
+      },
+      "id": "ce3cc67f-f7c3-41b6-897d-ff0efa321b07"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "043700cb-15f9-4722-afce-6f6564353b0f"
+      },
+      "id": "ba5a9ec1-5eb1-4384-bfd9-f2722915dcc1"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": ""
+}

@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "e869c5a2-27d0-4472-bdec-3204b35472d0",
+  "name": "NumbersDark",
+  "symbol": "tileset_numbers_copy",
+  "width": 4,
+  "height": 1,
+  "imageWidth": 32,
+  "imageHeight": 8,
+  "filename": "NumbersDark.png"
+}

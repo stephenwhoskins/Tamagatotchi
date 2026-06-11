@@ -1,0 +1,61 @@
+{
+  "_resourceType": "scene",
+  "id": "6fd13f98-00a3-4a87-86b6-28fcd0776ecb",
+  "_index": 14,
+  "type": "TOPDOWN",
+  "name": "Gato Cleaning",
+  "symbol": "scene_15",
+  "x": 1696,
+  "y": 656,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "d857fce8-776e-4304-9413-4bd79e518f1b",
+  "tilesetId": "",
+  "paletteIds": [
+    "dmg"
+  ],
+  "spritePaletteIds": [
+    "dmg"
+  ],
+  "autoFadeSpeed": 1,
+  "playerSpriteSheetId": "d3f11ec4-0a65-4067-91ba-6facfb17797b",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "c1e5da8f-eb7d-4b43-b7a0-825077b7e830"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "22",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "e811a68a-98f9-4f28-8a6a-f029cbee09da"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 5,
+        "frames": 30
+      },
+      "id": "94e52dd5-602c-4308-9c38-70e7926605d3"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "043700cb-15f9-4722-afce-6f6564353b0f"
+      },
+      "id": "9a9ef52e-bb51-4541-93e1-fe81cd95506c"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": ""
+}

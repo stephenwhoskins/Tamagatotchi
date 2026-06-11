@@ -1,0 +1,52 @@
+{
+  "_resourceType": "scene",
+  "id": "c22cad6f-1191-4623-911d-1ec9a7b52fe6",
+  "_index": 3,
+  "type": "POINTNCLICK",
+  "name": "Choose An Egg",
+  "symbol": "scene_player_s_house",
+  "x": 152,
+  "y": 504,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "0af9ba31-7864-4664-9603-b211dc0f3793",
+  "tilesetId": "",
+  "paletteIds": [
+    "dmg",
+    "dmg",
+    "dmg",
+    "dmg",
+    "dmg",
+    "dmg",
+    "dmg",
+    "dmg"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "playerSpriteSheetId": "d3f11ec4-0a65-4067-91ba-6facfb17797b",
+  "script": [
+    {
+      "id": "646647bb-e8b8-41cb-add9-e9d3531aceac",
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "5b79b431-d83d-4b5c-867b-b98a45eca528",
+        "loop": true
+      }
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Welcome to Egg Center\nTamagato!",
+          "Choose an egg to hatch\nyour Tamagato from!"
+        ],
+        "avatarId": ""
+      },
+      "id": "88a84b11-6f09-4e75-9145-e0724473a231"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": ""
+}

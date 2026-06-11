@@ -11,6 +11,7 @@
   "height": 18,
   "backgroundId": "4d688fa6-a17c-4b64-bcb7-8d84b7830076",
   "tilesetId": "",
+  "colorModeOverride": "none",
   "paletteIds": [
     "dmg",
     "dmg",
@@ -67,8 +68,14 @@
     {
       "command": "EVENT_WAIT",
       "args": {
-        "time": 15,
-        "frames": 30
+        "time": {
+          "type": "number",
+          "value": 15
+        },
+        "frames": {
+          "type": "number",
+          "value": 30
+        }
       },
       "id": "5ee9516e-6167-47b6-b959-10ef902cd70d"
     },

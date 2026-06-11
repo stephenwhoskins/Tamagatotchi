@@ -11,6 +11,7 @@
   "height": 18,
   "backgroundId": "12654a0d-9148-40d1-8bda-6dc3f79df6ae",
   "tilesetId": "",
+  "colorModeOverride": "none",
   "paletteIds": [
     "dmg"
   ],
@@ -28,6 +29,25 @@
       "id": "f3b75627-c669-45fe-a9cc-ba4c3ab42fd4"
     },
     {
+      "command": "EVENT_REPLACE_TILE_XY",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 4
+        },
+        "y": {
+          "type": "number",
+          "value": 1
+        },
+        "tilesetId": "e869c5a2-27d0-4472-bdec-3204b35472d0",
+        "tileIndex": {
+          "type": "variable",
+          "value": "24"
+        }
+      },
+      "id": "fb99434d-ae4a-48bb-babe-d54381764f03"
+    },
+    {
       "command": "EVENT_IF",
       "args": {
         "condition": {
@@ -41,7 +61,7 @@
             "value": "21"
           }
         },
-        "__collapseElse": true
+        "__collapseElse": false
       },
       "children": {
         "true": [
@@ -59,7 +79,7 @@
                   "value": "19"
                 }
               },
-              "__collapseElse": true
+              "__collapseElse": false
             },
             "children": {
               "true": [
@@ -77,7 +97,7 @@
                         "value": "23"
                       }
                     },
-                    "__collapseElse": true
+                    "__collapseElse": false
                   },
                   "children": {
                     "true": [
@@ -117,8 +137,14 @@
     {
       "command": "EVENT_WAIT",
       "args": {
-        "time": 5,
-        "frames": 30
+        "time": {
+          "type": "number",
+          "value": 5
+        },
+        "frames": {
+          "type": "number",
+          "value": 30
+        }
       },
       "id": "7a00e371-7db7-4017-9ac7-6564f6c0f82a"
     },

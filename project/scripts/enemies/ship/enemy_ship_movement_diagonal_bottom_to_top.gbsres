@@ -2,7 +2,7 @@
   "_resourceType": "script",
   "id": "abf2430e-0451-42b4-a415-22987dbb18af",
   "name": "enemies/ship/Enemy Ship Movement Diagonal Bottom To Top",
-  "symbol": "script_enemy_ship_movement__2",
+  "symbol": "script_enemy_ship_movement__0",
   "description": "Move from bottom of screen to top of screen shooting in the middle",
   "variables": {},
   "actors": {
@@ -26,7 +26,8 @@
           "value": 0
         },
         "moveType": "diagonal",
-        "useCollisions": false
+        "useCollisions": false,
+        "collideWith": []
       }
     },
     {
@@ -43,7 +44,8 @@
           "value": -6
         },
         "moveType": "diagonal",
-        "useCollisions": false
+        "useCollisions": false,
+        "collideWith": []
       }
     },
     {
@@ -82,7 +84,8 @@
           "value": -6
         },
         "moveType": "diagonal",
-        "useCollisions": false
+        "useCollisions": false,
+        "collideWith": []
       }
     },
     {
@@ -99,7 +102,8 @@
           "value": 0
         },
         "moveType": "diagonal",
-        "useCollisions": false
+        "useCollisions": false,
+        "collideWith": []
       }
     }
   ]

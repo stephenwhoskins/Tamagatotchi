@@ -1,0 +1,40 @@
+{
+  "_resourceType": "scene",
+  "id": "2b163680-385b-4d25-b1bc-d464e66034fd",
+  "_index": 8,
+  "type": "POINTNCLICK",
+  "name": "Gato Awake in Dark",
+  "symbol": "scene_9",
+  "x": 1024,
+  "y": 464,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "825919ae-fe5d-4f76-821a-23fdeeb63110",
+  "tilesetId": "",
+  "paletteIds": [
+    "dmg"
+  ],
+  "spritePaletteIds": [
+    "dmg"
+  ],
+  "autoFadeSpeed": 1,
+  "playerSpriteSheetId": "d3f11ec4-0a65-4067-91ba-6facfb17797b",
+  "script": [
+    {
+      "command": "EVENT_SAVE_DATA",
+      "args": {
+        "saveSlot": 0,
+        "__scriptTabs": "save"
+      },
+      "children": {
+        "true": [],
+        "load": []
+      },
+      "id": "c2f3d949-895b-4b8e-8e7d-fab554c25d94"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": ""
+}

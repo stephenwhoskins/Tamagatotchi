@@ -1,0 +1,137 @@
+{
+  "_resourceType": "scene",
+  "id": "decdb414-bba3-445d-9d3a-d21df7f028f3",
+  "_index": 12,
+  "type": "TOPDOWN",
+  "name": "Gato Sleeping",
+  "symbol": "scene_13",
+  "x": 1248,
+  "y": 656,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "12654a0d-9148-40d1-8bda-6dc3f79df6ae",
+  "tilesetId": "",
+  "paletteIds": [
+    "dmg"
+  ],
+  "spritePaletteIds": [
+    "dmg"
+  ],
+  "autoFadeSpeed": 1,
+  "playerSpriteSheetId": "d3f11ec4-0a65-4067-91ba-6facfb17797b",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "f3b75627-c669-45fe-a9cc-ba4c3ab42fd4"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "gte",
+          "valueA": {
+            "type": "variable",
+            "value": "20"
+          },
+          "valueB": {
+            "type": "variable",
+            "value": "21"
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "lt",
+                "valueA": {
+                  "type": "variable",
+                  "value": "18"
+                },
+                "valueB": {
+                  "type": "variable",
+                  "value": "19"
+                }
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "lt",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "22"
+                      },
+                      "valueB": {
+                        "type": "variable",
+                        "value": "23"
+                      }
+                    },
+                    "__collapseElse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_INC_VALUE",
+                        "args": {
+                          "variable": "24"
+                        },
+                        "id": "fbd62f3f-db87-4ccf-a271-f977c2dea207"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "33efb5e1-7ca1-411a-9192-c410353efcd0"
+                }
+              ],
+              "false": []
+            },
+            "id": "84304758-5f4f-4eae-becb-c7c5ab08bb4f"
+          }
+        ],
+        "false": []
+      },
+      "id": "ad33cbe0-3a87-4fe2-a960-cb0b97a164dd"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "20",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "92b2ae1c-0eb1-47db-8f68-8c9f9edd2ca8"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 5,
+        "frames": 30
+      },
+      "id": "7a00e371-7db7-4017-9ac7-6564f6c0f82a"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "043700cb-15f9-4722-afce-6f6564353b0f"
+      },
+      "id": "51e444c2-862f-402b-b824-878b4493efcd"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": ""
+}

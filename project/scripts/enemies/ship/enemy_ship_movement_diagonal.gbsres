@@ -2,7 +2,7 @@
   "_resourceType": "script",
   "id": "8ea9be15-dd40-4465-8143-cf29ea7fe4a0",
   "name": "enemies/ship/Enemy Ship Movement Diagonal",
-  "symbol": "script_enemy_ship_movement__0",
+  "symbol": "script_enemy_ship_movement_",
   "description": "Move diagonally backwards and forwards shooting in middle of movement",
   "variables": {},
   "actors": {
@@ -26,7 +26,8 @@
           "value": -4
         },
         "moveType": "diagonal",
-        "useCollisions": false
+        "useCollisions": false,
+        "collideWith": []
       }
     },
     {
@@ -43,7 +44,8 @@
           "value": 4
         },
         "moveType": "diagonal",
-        "useCollisions": false
+        "useCollisions": false,
+        "collideWith": []
       }
     },
     {
@@ -82,7 +84,8 @@
           "value": 4
         },
         "moveType": "diagonal",
-        "useCollisions": false
+        "useCollisions": false,
+        "collideWith": []
       }
     },
     {
@@ -99,7 +102,8 @@
           "value": -4
         },
         "moveType": "diagonal",
-        "useCollisions": false
+        "useCollisions": false,
+        "collideWith": []
       }
     }
   ]

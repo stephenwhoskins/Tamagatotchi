@@ -1,0 +1,48 @@
+{
+  "_resourceType": "scene",
+  "id": "b609ea33-e3c2-4b8b-933e-475ad4454088",
+  "_index": 10,
+  "type": "POINTNCLICK",
+  "name": "Gato Cooing",
+  "symbol": "scene_11",
+  "x": 1024,
+  "y": 656,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "981e55cf-b72b-4622-81ba-610013d93c6c",
+  "tilesetId": "",
+  "paletteIds": [
+    "dmg"
+  ],
+  "spritePaletteIds": [
+    "dmg"
+  ],
+  "autoFadeSpeed": 1,
+  "playerSpriteSheetId": "d3f11ec4-0a65-4067-91ba-6facfb17797b",
+  "script": [
+    {
+      "command": "EVENT_SAVE_DATA",
+      "args": {
+        "saveSlot": 0,
+        "__scriptTabs": "save"
+      },
+      "children": {
+        "true": [],
+        "load": []
+      },
+      "id": "88984bc5-b6bb-4a33-bc91-808cf8c98725"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 4
+      },
+      "id": "a22c038b-68fc-48f9-940e-a21da17002f4"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": ""
+}

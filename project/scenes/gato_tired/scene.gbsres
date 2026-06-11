@@ -11,6 +11,7 @@
   "height": 18,
   "backgroundId": "981e55cf-b72b-4622-81ba-610013d93c6c",
   "tilesetId": "",
+  "colorModeOverride": "none",
   "paletteIds": [
     "dmg"
   ],
@@ -39,6 +40,25 @@
         "speed": 4
       },
       "id": "408efd31-f555-4c4d-8e04-8f8a72059b6a"
+    },
+    {
+      "command": "EVENT_REPLACE_TILE_XY",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 4
+        },
+        "y": {
+          "type": "number",
+          "value": 1
+        },
+        "tilesetId": "3a8ecaf5-8390-4b0d-8413-4b31305ab6ad",
+        "tileIndex": {
+          "type": "variable",
+          "value": "24"
+        }
+      },
+      "id": "14a5a1cd-a688-4f28-822a-98a14197aa0f"
     }
   ],
   "playerHit1Script": [],

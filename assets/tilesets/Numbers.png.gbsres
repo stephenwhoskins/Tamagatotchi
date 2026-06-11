@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "3a8ecaf5-8390-4b0d-8413-4b31305ab6ad",
+  "name": "Numbers",
+  "symbol": "tileset_waterfall_copy",
+  "width": 4,
+  "height": 1,
+  "imageWidth": 32,
+  "imageHeight": 8,
+  "filename": "Numbers.png"
+}

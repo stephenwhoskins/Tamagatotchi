@@ -1,0 +1,97 @@
+{
+  "_resourceType": "scene",
+  "id": "46f5365d-bb31-4ccb-b340-c5ffd156fcde",
+  "_index": 15,
+  "type": "TOPDOWN",
+  "name": "Gato Graduating",
+  "symbol": "scene_16",
+  "x": 1472,
+  "y": 464,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "4d688fa6-a17c-4b64-bcb7-8d84b7830076",
+  "tilesetId": "",
+  "paletteIds": [
+    "dmg",
+    "dmg",
+    "dmg",
+    "dmg",
+    "dmg",
+    "dmg",
+    "dmg",
+    "dmg"
+  ],
+  "spritePaletteIds": [
+    "dmg",
+    "dmg",
+    "dmg",
+    "dmg",
+    "dmg",
+    "dmg",
+    "dmg",
+    "dmg"
+  ],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "c576184d-abf2-4328-9e9f-fa85c5e0aad7"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "5fd49aff-877f-449b-8ba7-58689b6af95e"
+      },
+      "id": "1402135b-e86e-49c7-a47e-104d50c1dba3"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Congratulations!",
+          "By taking good care of\nyour Gato, he has . . .",
+          "grown up to be a\nproductive member of",
+          "society!",
+          "With his new college\ndegree, who knows . . .",
+          "what opportunities\nawait him.",
+          "Gato only has you to\nthank for this!",
+          "Thank you . . ."
+        ],
+        "avatarId": ""
+      },
+      "id": "25d0e8b5-f7a8-4586-a824-395527f5e62a"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 15,
+        "frames": 30
+      },
+      "id": "5ee9516e-6167-47b6-b959-10ef902cd70d"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "382961a1-e615-4b92-92a7-f1a791b50b7a",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "673b2f74-6ecf-467e-817e-88030eb842a5"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": ""
+}

@@ -1,0 +1,61 @@
+{
+  "_resourceType": "scene",
+  "id": "de48243f-9db3-4ba1-b40b-15d57e130a93",
+  "_index": 9,
+  "type": "TOPDOWN",
+  "name": "Gato Sucking",
+  "symbol": "scene_10",
+  "x": 800,
+  "y": 656,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "56d8ac5f-2fec-4abe-80fa-43ffe0a12fb5",
+  "tilesetId": "",
+  "paletteIds": [
+    "dmg"
+  ],
+  "spritePaletteIds": [
+    "dmg"
+  ],
+  "autoFadeSpeed": 1,
+  "playerSpriteSheetId": "d3f11ec4-0a65-4067-91ba-6facfb17797b",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "8d866340-30c6-4ec7-8245-e29d57f6dde3"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "18",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "10492060-ce20-401b-a139-b69274b29888"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 5,
+        "frames": 30
+      },
+      "id": "2b1a03cb-5cf5-46fe-8cdc-a5dd5cbb3fe4"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "043700cb-15f9-4722-afce-6f6564353b0f"
+      },
+      "id": "b7241476-8b55-47dc-927b-e2f5545c0c46"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": ""
+}

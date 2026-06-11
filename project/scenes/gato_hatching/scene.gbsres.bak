@@ -1,0 +1,91 @@
+{
+  "_resourceType": "scene",
+  "id": "3fd45243-001d-434a-9c37-ccc484b7bf3d",
+  "_index": 5,
+  "type": "TOPDOWN",
+  "name": "Gato Hatching",
+  "symbol": "scene_18",
+  "x": 384,
+  "y": 504,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "48ffec1e-dd00-48cc-bc8d-c07e6343f357",
+  "tilesetId": "",
+  "paletteIds": [
+    "dmg",
+    "dmg",
+    "dmg",
+    "dmg",
+    "dmg",
+    "dmg",
+    "dmg",
+    "dmg"
+  ],
+  "spritePaletteIds": [
+    "dmg",
+    "dmg",
+    "dmg",
+    "dmg",
+    "dmg",
+    "dmg",
+    "dmg",
+    "dmg"
+  ],
+  "autoFadeSpeed": 1,
+  "playerSpriteSheetId": "d3f11ec4-0a65-4067-91ba-6facfb17797b",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "9b279fcd-518b-4eb4-8366-b870411b6791"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Oh...",
+          "It looks like it's about\nto hatch!",
+          "Let's see what comes\nout!"
+        ],
+        "avatarId": ""
+      },
+      "id": "5f22e54f-2951-41e0-891f-540f43094ba1"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "crash",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 0
+      },
+      "id": "0303fd2d-f1fe-49e7-8373-2e4bcf32a68e"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "f8d9d21e-f05b-4da0-b407-d14ad86f8d19",
+        "x": {
+          "type": "number",
+          "value": 6
+        },
+        "y": {
+          "type": "number",
+          "value": 13
+        },
+        "direction": "right",
+        "fadeSpeed": "2"
+      },
+      "id": "46ee8dcb-8678-4890-a784-b78a16fe62eb"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": ""
+}
